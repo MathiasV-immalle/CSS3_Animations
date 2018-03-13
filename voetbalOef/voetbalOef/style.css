@@ -1,0 +1,12 @@
+#bal {
+	float: left;
+	margin-top:600px
+}
+
+.rij {
+	transition: transform 2s ease-out 0s;
+}
+
+.rij:active {
+	transform: translate(225px,-500px);
+}

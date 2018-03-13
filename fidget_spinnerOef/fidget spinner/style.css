@@ -1,0 +1,26 @@
+.spin{
+    animation-name: draai;
+    animation-duration: .2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.beweeg{
+	animation-name: beweeg;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes draai {
+	100% {transform:rotate(360deg)}
+}
+@keyframes beweeg {
+    0% {transform: translate(0px, 0px)}
+	25% {transform: translate(500px, 0px)}
+	50% {transform: translate(500px, 500px)}
+	75% {transform: translate(0px, 500px)}
+	100% {transform: translate(0px, 0px)}
+}

@@ -1,0 +1,19 @@
+#kompaske1 {
+	width: 350px;
+	height: width;
+	transform: rotate(180deg);
+}
+
+#kompaske2 {
+	width: 350px;
+	height: width;
+	transform: scale(0.3);
+}
+
+#kompaske3 {
+	width: 350px;
+	height: width;
+	transform:skew(10deg,15deg); 
+}
+
+
