@@ -1,0 +1,43 @@
+using System;
+using System.Linq;
+using System.IO;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
+
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+class Solution
+{
+    static void Main(string[] args)
+    {
+        string source = Console.ReadLine();
+        string target = Console.ReadLine();
+                
+        List<string> sourceLetters = new List<string>();
+        List<string> targetLetters = new List<string>();
+
+        
+        int i = 0;        
+        foreach(var letter in source){
+                sourceLetters.prototype.push(letter);
+                i++;
+        }
+        
+        int j = 0;
+        foreach(var letter in target){
+                targetLetters[j] = letter;
+                j++;
+        }
+        
+        for(int x = 0; x < source.Length; x++){
+        
+            sourceLetters[x] = targetLetters;
+            Console.Write(targetLetters);
+            
+        }
+        
+    }
+}
